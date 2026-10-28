@@ -145,4 +145,6 @@
     </div>
 
     {{ FilamentView::renderHook(PanelsRenderHook::TOPBAR_END) }}
+
+    <x-filament-actions::modals />
 </header>
